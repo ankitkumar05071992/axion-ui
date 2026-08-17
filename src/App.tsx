@@ -15,7 +15,7 @@ import { SystemSettings } from './components/pages/SystemSettings';
 import { DashboardView } from './components/pages/DashboardView';
 import { NotFound } from './components/pages/NotFound';
 
-const API_BASE = 'http://axion-ingestion-svc.default.svc.cluster.local:8000';
+const API_BASE = 'http://axion-telemetry-query-svc:8000';
 
 function App() {
   const location = useLocation();
