@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      IMAGE_NAME: axion-ui
+      IMAGE_NAME: axion-uix
       IMAGE_TAG: v4
       ACR_NAME: acrdevtodoapp01
       ACR_LOGIN_SERVER: acrdevtodoapp01.azurecr.io
